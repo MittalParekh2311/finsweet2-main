@@ -1,0 +1,27 @@
+
+
+
+.BannerText {
+    margin: 100px 0;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .BannerText{margin: 36px 0;}
+}
+@media only screen and (max-width: 992px) {
+ 
+  
+}
+@media only screen and (max-width: 768px) {
+    .BannerText{margin: 10px 0;}                                                                                 
+}
+@media only screen and (max-width: 767px) {
+    .BannerText{text-align: center;}
+ 
+}
+@media only screen and (max-width: 567px) {
+  
+  
+}
+/* Responsive end  */

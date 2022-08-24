@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.BlogSection {
+    padding: 100px 0;
+    width: 100%;
+}
+.DateAuthor {
+    text-align: center;
+    padding: 20px 0;
+}
+.BlogImage {
+    width: 100%;
+}
+.Author {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.87;
+    margin-right: 10px;
+}
+.BlogHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    max-width: 949px;
+    margin: 15px auto;
+}
+.BlogParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 831px;
+    margin: 25px auto;
+}
+.ReadBtn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #2405F2;
+    opacity: 0.7;
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    display: table;
+}
+.BlogCol {
+    margin: 20px 0;
+}
+.OurBlogHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+    margin: 20px auto;
+}
+.BlogOurBlog {
+    padding-top: 100px;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .OurBlogHeading {font-size: 37px;
+        line-height: 37px;}
+        .BlogHeading{font-size: 37px;
+            line-height: 53px;}
+ 
+}
+@media only screen and (max-width: 992px) {
+    .BlogSection{padding: 50px 0px;}
+    .BlogHeading{font-size: 26px;
+        line-height: 40px;max-width: 456px;}
+    .BlogOurBlog {padding-top: 50px;}
+    .OurBlogHeading {font-size: 30px;
+        line-height: 24px;}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .BlogSection{padding: 30px 0px;}
+    .BlogOurBlog {padding-top: 30px;}
+    .BlogHeading{font-size: 22px;
+        line-height: 34px;margin: 0px auto;}
+    .BlogCol{margin: 5px 0;}
+  
+ 
+}
+@media only screen and (max-width: 567px) {
+    .OurBlogHeading {font-size: 24px;
+        line-height: 19px;margin: 10px auto;}
+        .BlogHeading{font-size: 19px;
+            line-height: 31px;}
+  
+}
+/* Responsive end  */

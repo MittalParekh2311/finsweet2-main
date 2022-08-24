@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "teamimg":"/images/TeamImg1.svg",
+      "teamfb":"/images/Facebookicon.svg",
+      "teamtwitter": "/images/Twittericon.svg",
+      "teamlinkedin":"/images/LinkeIndicon.svg",
+      "teamheading":"John Smith",
+        "teamtitle":"CEO"
+    },
+    {
+        "id": 2,
+        "teamimg":"/images/TeamImg2.svg",
+        "teamfb":"/images/Facebookicon.svg",
+      "teamtwitter": "/images/Twittericon.svg",
+      "teamlinkedin":"/images/LinkeIndicon.svg",
+        "teamheading":"Simon Adams",
+          "teamtitle":"CEO"
+      },
+      {
+        "id": 3,
+        "teamimg":"/images/TeamImg3.svg",
+        "teamfb":"/images/Facebookicon.svg",
+      "teamtwitter": "/images/Twittericon.svg",
+      "teamlinkedin":"/images/LinkeIndicon.svg",
+        "teamheading":"Paul Jones",
+          "teamtitle":"Design Lead"
+      },
+      {
+        "id": 4,
+        "teamimg":"/images/TeamImg4.svg",
+        "teamfb":"/images/Facebookicon.svg",
+      "teamtwitter": "/images/Twittericon.svg",
+      "teamlinkedin":"/images/LinkeIndicon.svg",
+        "teamheading":"Sara Hardin",
+          "teamtitle":"Project Manager"
+      }
+  ]
+  

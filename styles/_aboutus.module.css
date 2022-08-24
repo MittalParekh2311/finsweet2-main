@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+  .AboutHero {
+    /* padding: 100px 0; */
+    padding-top: 100px;
+    width: 100%;
+}
+.AboutTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+.AboutHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #282938;
+    margin: 15px 0 !important;
+    max-width: 595px;
+}
+.AboutDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 484px;
+}
+.AboutImg ,.WhoImg{
+    width: 100%;
+}
+/* Who we are css start  */
+.WhoWeAre {
+    padding: 100px 0;
+    width: 100%;
+}
+.WhoRow {
+    --bs-gutter-x: 0;
+}
+.WhoContent {
+    background: #F4F5F5;
+    padding: 41px 40px;
+}
+.WhoTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+}
+.WhoHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    margin: 10px 0 !important;
+}
+.WhoDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 515px;
+}
+/* Who we are css end  */
+/* Processing css start  */
+.ProcessSection {
+    padding: 50px 0;
+    width: 100%;
+}
+.ProcessHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    margin: 15px 0 !important;
+}
+.CardHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    margin: 15px 0 !important;
+}
+.CardDescription {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 272px;
+}
+.ProcessContent {
+    padding: 20px 0;
+}
+.circle{
+    display: inline-block;
+}
+.circle:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.line {
+    border: 2px dashed #2405F2;
+    width: 224px;
+    display: inline-block;
+}
+/* Processing css end  */
+/* Our Mission and Our Vision Css Start */
+.MissionVision {
+    padding: 100px 0;
+    width: 100%;
+    background: #EEF4FA;
+}
+.MissionTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.MissionHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    margin: 10px 0 !important;
+}
+.MissionParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 623px;
+}
+.MissionImg ,.VisionImg{
+    width: 100%;
+}
+.OurMission {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.LeftCont {
+    display: flex;
+}
+.OurMission1 {
+    padding-left: 13%;
+    margin-top: 12%;
+}
+
+/* Our Mission and Our Vision Css End */
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .AboutHeading{font-size: 39px;
+        line-height: 46px;max-width: 534px;}
+        .WhoHeading{font-size: 33px;
+            line-height: 45px;}
+            .line{width: 175px;}
+            .ProcessHeading{font-size: 36px;
+                line-height: 45px;}
+}
+@media only screen and (max-width: 992px) {
+    .WhoWeAre,.MissionVision{padding: 50px 0;}
+    .AboutHero{padding-top: 50px;}
+    .WhoHeading{font-size: 28px;
+        line-height: 33px;}
+    .ProcessHeading{font-size: 30px;
+            line-height: 30px;}
+    .CardHeading{font-size: 21px;
+                line-height: 29px;margin: 12px 0 !important;}
+                .MissionHeading {font-size: 30px;
+                    line-height: 38px;}
+}
+@media only screen and (max-width: 768px) {
+    .WhoHeading{font-size: 23px;
+        line-height: 30px;}
+     .WhoContent{padding: 20px 30px;}                                                                                                                        
+}
+@media only screen and (max-width: 767px) {
+    .WhoWeAre,.MissionVision{padding: 30px 0;}
+    .AboutHero{padding-top: 30px;}
+    .AboutContent {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .AboutHeading,.AboutDescription{max-width: 100%;text-align: center;}
+    .AboutHeading{font-size: 30px;margin: 5px 0 !important;}
+    .WhoContent{padding: 20px 30px; text-align: center;}
+    .WhoDescription{max-width: 100%; text-align: center;}
+    .ProcessContent{text-align: center; padding: 10px 0;}
+    .CardDescription{max-width: 100%; text-align: center;}
+    .LeftCont{display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;}
+        .MissionHeading {font-size: 25px;
+            line-height: 28px;}
+            .OurMission{text-align: center;}
+            .MissionParg{max-width: 100%;}
+            .OurMission1{padding-left: 0%; text-align: center;margin-top: 6%;}
+}
+@media only screen and (max-width: 567px) {
+    .AboutHeading{font-size: 25px;}
+    .WhoContent{padding: 15px 20px;}
+    .WhoHeading{font-size: 19px;}
+    .WhoDescription{font-size: 15px;}
+    .ProcessHeading{font-size: 22px;
+        line-height: 19px;}
+}
+/* Responsive end  */

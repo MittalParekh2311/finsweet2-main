@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.wework_section {
+    background-color: #F4F6FC;
+    padding: 100px 0;
+}
+.work_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    margin: 15px 0 !important;
+}
+.we_parg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    margin: 15px 0 !important;
+    max-width: 400px;
+}
+.get_btn {
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2405F2;
+    border: none;
+}
+.get_btn:after{
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("/images/bluearrow.svg");
+    background-repeat: no-repeat;
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 10px;
+}
+.cont_heding {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+    margin: 10px 0 !important;
+}
+.cont_parg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 300px;
+}
+/* .we_card {
+    display: flex;
+    margin-bottom: 20px;
+} */
+.card_content {
+    margin-bottom: 25px;
+}
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .work_heading {font-size: 37px;
+        line-height: 39px;}
+    
+}
+@media only screen and (max-width: 992px) {
+    .wework_section {padding: 50px 0;}
+    .cont_heding{font-size: 25px;
+        line-height: 40px;}
+}
+@media only screen and (max-width: 768px) {
+    
+    
+}
+@media only screen and (max-width: 767px) {
+    .wework_section {padding: 30px 0;}
+    .work_heading_main {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .we_parg {max-width: 100%;}
+   
+   
+}
+@media only screen and (max-width: 567px) {
+    .card_content {margin: 20px auto;
+        display: table;}
+}
+/* Responsive end  */

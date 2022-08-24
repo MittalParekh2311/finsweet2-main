@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "processHeading":"Planning",
+     "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+    },
+    {
+        "id": 2,
+        "processHeading":"Conception",
+       "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+      },
+      {
+        "id": 3,
+        "processHeading":"Design",
+       "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+      },
+      {
+        "id": 4,
+        "processHeading":"Development",
+       "processDescription":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+      }
+  ]
+  

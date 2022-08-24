@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.footer_section {
+    background-color: #1c1e53;
+   padding-top: 100px;
+   position: relative;
+}
+.footer_parg ,.talk_parg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    max-width: 399px;
+    margin: 15px 0 !important;
+}
+.talk_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+/* .talk_parg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.8;
+    max-width: 399px;
+} */
+.social_icon {
+    display: flex;
+}
+.contact_info {
+    background-color: #FCD980;
+    display: flex;
+    padding: 30px;
+    max-width: 517px;
+    margin-top: 20px;
+}
+.email_id ,.contact{
+    display: inline-grid;
+    margin-right: 30px;
+}
+.info_email ,.call{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+.emailaddress , .contact_number{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+}
+.footer_bottom{
+    background-color: white;
+    padding: 10px 0;
+}
+.footer_link {
+    display: flex;
+    justify-content: end;
+    padding: 15px 15px !IMPORTANT;
+}
+.footer_navlink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    padding: 10px 10px;
+}
+.copyright {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-top: 20px;
+}
+
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .footer_navlink{font-size: 15px;}
+}
+@media only screen and (max-width: 992px) {
+    .footer_link{justify-content: center;}
+    .copyright{text-align: center;}
+    .talk_heading {font-size: 35px;}
+}
+@media only screen and (max-width: 768px) {
+    
+}
+@media only screen and (max-width: 767px) {
+
+    .footer_section {text-align: center;}
+    .footer_parg ,.talk_parg{max-width: 100%;}
+    .social_icon{justify-content: center;}
+    .contact_info {margin: 20px auto;}
+}
+@media only screen and (max-width: 567px) {
+    .copyright{font-size: 15px; margin-top: 12px;}
+    .footer_navlink{font-size: 14px; padding: 10px 5px; line-height: 18px;}
+    .info_email ,.call{font-size: 16px;}
+    .contact_info{padding: 15px; display: grid;}
+    .footer_link{padding: 10px 10px !important;}
+}
+
+/* Responsive end  */

@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "workimg": "/images/point1.svg",
+      "workheading":"Strategy",
+      "workdescription": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
+    },
+    {
+        "id": 2,
+        "workimg": "/images/point2.svg",
+        "workheading":"Wireframing",
+        "workdescription": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
+      },
+      {
+        "id": 3,
+        "workimg": "/images/point3.svg",
+        "workheading":"Design",
+        "workdescription": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
+      },
+      {
+        "id": 4,
+        "workimg": "/images/point4.svg",
+        "workheading":"Development",
+        "workdescription": "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
+      }
+  ]
+  

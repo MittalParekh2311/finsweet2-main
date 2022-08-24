@@ -1,0 +1,72 @@
+
+
+
+.CtaSection {
+    padding: 50px 0;
+    width: 100%;
+}
+.HeadingBody {
+    text-align: center;
+}
+.CtaHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    max-width: 730px;
+    margin: 15px auto;
+}
+.CtaParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 562px;
+    margin: 25px auto;
+}
+.ContactBtn {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    border: navajowhite;
+    background: #FCD980;
+    border-radius: 41px;
+    padding: 10px 50px;
+}
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .CtaHeading {font-size: 37px;
+        line-height: 51px; max-width: 484px;}
+ 
+}
+@media only screen and (max-width: 992px) {
+    .CtaHeading {font-size: 30px;
+        line-height: 45px; max-width: 500px;}
+ 
+ 
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .CtaSection{padding: 30px 0px;}
+  
+ 
+}
+@media only screen and (max-width: 567px) {
+    .CtaHeading {font-size: 22px;
+        line-height: 32px;
+        max-width: 300px;}
+  
+}
+/* Responsive end  */

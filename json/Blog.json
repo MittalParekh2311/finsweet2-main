@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "blogimg": "/images/Blog1.svg",
+     "blogdate":"27 Jan 2021",
+      "blogheading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+      "description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+      "bloglink": "Read More"
+    },
+    {
+        "id": 2,
+        "blogimg": "/images/Blog2.svg",
+       "blogdate":"27 Jan 2021",
+        "blogheading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "bloglink": "Read More"
+      },
+      {
+        "id": 3,
+        "blogimg": "/images/Blog3.svg",
+       "blogdate":"27 Jan 2021",
+        "blogheading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "bloglink": "Read More"
+      },
+      {
+        "id": 4,
+        "blogimg": "/images/Blog4.svg",
+       "blogdate":"27 Jan 2021",
+        "blogheading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "bloglink": "Read More"
+      },
+      {
+        "id": 5,
+        "blogimg": "/images/Blog5.svg",
+       "blogdate":"27 Jan 2021",
+        "blogheading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "bloglink": "Read More"
+      },
+      {
+        "id": 6,
+        "blogimg": "/images/Blog6.svg",
+       "blogdate":"27 Jan 2021",
+        "blogheading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "bloglink": "Read More"
+      }
+  ]
+  

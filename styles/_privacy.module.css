@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.PrivacyHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+.PrivacyTitle {
+    margin: 0 300px;
+    padding-top: 50px;
+}
+.PrivacyParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 842px;
+    margin: 20px 0 !important;
+}
+.ColorBlue{
+    color: blue;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .PrivacyTitle{margin: 0 200px;}
+}
+@media only screen and (max-width: 992px) {
+    .PrivacyTitle{margin: 0 150px;}
+    .PrivacyHeading {font-size: 30px;
+        line-height: 25px;}
+  
+  
+}
+@media only screen and (max-width: 768px) {
+    .PrivacyHeading {font-size: 30px;
+        line-height: 38px;}
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .PrivacyTitle{margin: 0 100px; padding-top: 20px;}
+    .PrivacyHeading{text-align: center; font-size: 25px;}
+    .PrivacyParg {max-width: 100%; text-align: center;}
+ 
+}
+@media only screen and (max-width: 567px) {
+    .PrivacyTitle{margin: 0 20px;}
+    .PrivacyHeading{font-size: 20px; line-height: 31px;}
+    .PrivacyParg {font-size: 15px;}
+  
+  
+}
+/* Responsive end  */

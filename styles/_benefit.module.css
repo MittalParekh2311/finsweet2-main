@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.BenefitSection {
+    padding: 100px 0;
+    width: 100%;
+}
+.BenefitHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    max-width: 630px;
+    margin: 0 auto;
+}
+.MainContent {
+    margin: 35px 0;
+}
+.BenefitContent {
+    background: #F4F6FC;
+    padding: 50px;
+}
+
+.ContnetHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    margin: 10px 0 !important;
+}
+.contentParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 324px;
+}
+
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .ContnetHeading{font-size: 20px;}
+    .BenefitContent{padding: 30px;}
+    .BenefitHeading{font-size: 40px;}
+}
+@media only screen and (max-width: 992px) {
+    .BenefitSection{padding: 50px 0;}
+   
+  
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .BenefitSection{padding: 30px 0;}
+    .BenefitContent{max-width: 405px; display: table; margin: 0 auto;text-align: center;}
+    .MainContent{margin: 15px 0;}
+    .BenefitHeading{font-size: 30px;line-height: 40px;}
+}
+@media only screen and (max-width: 567px) {
+    .BenefitHeading{font-size: 23px;line-height: 27px;}
+  
+  
+}
+/* Responsive end  */

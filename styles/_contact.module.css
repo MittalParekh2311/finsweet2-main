@@ -1,0 +1,109 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.ContactSection {
+    padding: 100px 0;
+    width: 100%;
+}
+.ContactaTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+}
+.ContactParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    max-width: 562px;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+.ContactForm {
+    background: #F4F6FC;
+    border-radius: 12px;
+    padding: 50px;
+    max-width: 1061px;
+    margin: 40px auto;
+}
+.LabelName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+}
+.formInput,.FormTextarea {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 13px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.formInput::placeholder ,.FormTextarea::placeholder{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #000000;
+
+}
+
+.FormTextarea {
+    resize: none;
+    padding: 13px 20px;
+}
+
+.ContactBtn {
+    background: #282938;
+    border-radius: 41px;
+    border: none;
+    padding: 16px 64px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #F4F6FC;
+}
+
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .ContactaTitle {font-size: 40px;}
+ 
+}
+@media only screen and (max-width: 992px) {
+    .ContactSection {padding: 50px 0px;}
+    .ContactaTitle {font-size: 30px; line-height: 35px;}
+  
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .ContactSection {padding: 30px 0px;}
+    .ContactForm{padding: 30px; max-width: 590px;}
+}
+@media only screen and (max-width: 567px) {
+    .ContactBtn{display: table; margin: 0 auto;}
+}
+/* Responsive end  */

@@ -1,0 +1,193 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+
+.CaseStudies {
+    padding: 100px 0px;
+    width: 100%;
+}
+.CaseImg,.ArticleImage  {
+    width: 100%;
+    /* height: 641px; */
+}
+.Development {
+    margin: 0 50px;
+}
+.CaseTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    opacity: 0.8;
+}
+.CaseHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    max-width: 645px;
+    margin: 15px 0 !important;
+}
+.CaseParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 817px;
+    margin: 20px 0 !important;
+}
+.Title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+}
+.Heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    margin: 10px 0 !important;
+}
+.Information {
+    padding: 20px 10px;
+   border-bottom: 1px solid #282938;
+}
+.ArticlePart {
+    padding: 100px 0 50px;
+    margin: 0 100px;
+}
+.ArticleHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+.ArticleParag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    margin: 20px 0 !important;
+    max-width: 837px;
+}
+.ListContent {
+    padding: 30px 0;
+}
+.List {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #282938;
+    opacity: 0.7;
+}
+.List:before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.WeDoPart {
+    padding: 50px 0;
+}
+.keywordsHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2405F2;
+}
+.KeywordTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    color: #282938;
+    opacity: 0.7;
+    padding: 0 25px;
+}
+.Keywords {
+    border-top: 1px solid  #282938;
+    border-bottom: 1px solid  #282938;
+    padding: 20px 5px;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+
+.CaseHeading {font-size: 37px;
+    line-height: 45px;max-width: 400px;}
+    .ArticlePart {padding: 50px 0 50px;}
+ 
+}
+@media only screen and (max-width: 992px) {
+.CaseStudies { padding: 50px 0px;}
+.CaseHeading{font-size: 30px;
+    line-height: 41px;}
+    .Heading{font-size: 19px;line-height: 29px;}
+    .ArticleHeading {font-size: 30px;
+        line-height: 25px;}
+        .keywordsHeading{font-size: 20px;}
+        .KeywordTitle {font-size: 15px;padding: 0px 11px;}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .CaseStudies { padding: 30px 0px;}
+    .CaseHeading{max-width: 100%; text-align: center; font-size: 25px;}
+    .Development{text-align: center; margin: 0 20px;}
+    .CaseTitle{font-size: 20px;
+        line-height: 23px;}
+        .Information {padding: 10px 10px;}
+        .ArticlePart {margin: 0 50px; text-align: center;padding: 50px 0 0;}
+        .WeDoPart {padding: 30px 0;}
+        .keywordsHeading{    font-size: 20px;}
+        .ListContent {
+            padding: 0px 0;
+        }
+  
+ 
+}
+@media only screen and (max-width: 567px) {
+    .ArticleHeading {font-size: 20px;}
+    .ArticlePart {margin: 0 10px;}
+    .ArticleParag {font-size: 15px;}
+    .CaseTitle{font-size: 15px;}
+    .CaseHeading{font-size: 21px;line-height: 30px;margin: 10px 0 !important;}
+  
+  
+}
+/* Responsive end  */

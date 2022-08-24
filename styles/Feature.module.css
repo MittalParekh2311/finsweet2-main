@@ -1,0 +1,97 @@
+
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.feature {
+    background-color: #F4F6FC;
+    padding: 100px 0;
+}
+.f_label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+}
+.feature_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    max-width: 630px;
+    margin: 20px auto;
+}
+.cont_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    margin: 15px 0 !important;
+}
+.main_content {
+    margin-top: 30px;
+}
+.cont_parag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 324px;
+}
+.feature_content {
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+/* Responsive start  */
+
+@media only screen and (max-width: 1199px) {
+    .feature_heading{font-size: 40px;
+        line-height: 53px;}
+    .cont_heading{font-size: 21px;
+        line-height: 26px;}
+}
+@media only screen and (max-width: 1024px) {
+    .cont_heading{font-size: 17px;}
+}
+@media only screen and (max-width: 992px) {
+    .feature_heading{margin: 10px auto;max-width: 400px;font-size: 30px;
+        line-height: 46px;}
+    .feature{padding: 50px 0;}
+    .feature_content {padding: 35px;}
+ 
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 767px) {
+    .feature{padding: 30px 0;}
+    .feature_content {max-width: 405px;
+        margin: 0 auto;}
+    .feature_heading{font-size: 26px;
+        line-height: 39px;}
+        .imgicon{display: table; margin: 0 auto;}
+        .cont_heading{text-align: center;}
+        .cont_parag {max-width: 100%; text-align: center;}
+}
+@media only screen and (max-width: 567px) {
+    
+    
+}
+/* Responsive end  */

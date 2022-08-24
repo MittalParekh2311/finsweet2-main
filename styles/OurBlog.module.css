@@ -1,0 +1,93 @@
+
+
+.ourblog_section {
+    padding: 100px 0;
+    width: 100%;
+    display: inline-block;
+}
+.our_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    margin-bottom: 30px !important;
+}
+.date {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.blog_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+}
+.blog_parg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.blog_content {
+    padding: 25px 0;
+}
+.blogimg {
+    width: 100%;
+}
+.read_btn {
+    background-color: transparent;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    padding: 0 !important;
+}
+.read_btn:after{
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("/images/blackarrow.svg");
+    background-repeat: no-repeat;
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 10px;
+}
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+
+}
+@media only screen and (max-width: 992px) {
+    .ourblog_section{padding: 50px 0;}
+    .blog_heading{font-size: 20px;
+        line-height: 32px;}
+        .our_heading{font-size: 30px;}
+}
+@media only screen and (max-width: 768px) {
+    .blog_heading{font-size: 18px;
+        line-height: 28px;}
+}
+@media only screen and (max-width: 767px) {
+    .ourblog_section{padding: 30px 0;}
+    .blog_content{text-align: center; padding: 10px 0px;}
+    .our_heading{font-size: 28px; text-align: center;margin-bottom: 10px !important;}
+}
+@media only screen and (max-width: 567px) {
+
+}
+/* Responsive end  */
+

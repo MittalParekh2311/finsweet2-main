@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Manrope";
+    src: local("Manrope"),
+      url("../public/font/Manrope-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+.PricingHeading {
+    text-align: center;
+}
+.PricingSection {
+    padding-top: 100px;
+    width: 100%;
+}
+.PricingCard {
+    background: #F4F6FC;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 50px;
+    height: 745px;
+}
+/* .PricingCard:hover{
+    transform: scale(1.1);
+} */
+/* .PricingCard:hover {
+    background: #1C1E53;
+} */
+.PricingTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    margin: 10px 0 !important;
+}
+.PricingParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 562px;
+    margin: 0 auto;
+}
+.number {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    display: inline-block;
+}
+.CardTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2405F2;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.CardHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+}
+.Cardparag {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    max-width: 281px;
+}
+.List {
+    padding: 40px 0;
+}
+.GetButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.PricingBtn {
+    background: #282938;
+    border-radius: 41px;
+    border: none;
+    padding: 15px 51px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #F4F6FC;
+}
+.PricingCard:hover .PricingBtn{
+    background: #FCD980 !important;
+    color: #282938;
+}
+.ListLink {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.ListLink:before{
+    content: '';
+    width: 26px;
+    height: 18px;
+    display: inline-block;
+    transform: rotate(180deg);
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    /* border-right: 15px solid #97DAAD; */
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+/* .ListLink:nth-child(4):before ,.ListLink:nth-child(5):before{
+    border-right: 15px solid gray;
+} */
+
+/* .PricingCard:hover .number,.PricingCard:hover .CardHeading , .PricingCard:hover .Cardparag ,.PricingCard:hover .ListLink {
+    color: white !important;
+}
+.PricingCard:hover .CardTitle{
+    color: #FCD980;
+} */
+
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .PricingTitle {font-size: 36px;margin: 5px 0 !important;}
+ 
+}
+@media only screen and (max-width: 992px) {
+    .PricingSection { padding-top: 50px;} 
+    .PricingTitle {font-size: 30px;line-height: 46px;}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .PricingSection { padding-top: 30px;} 
+    .PricingCard{text-align: center;}
+    .Cardparag {max-width: 100%; text-align: center;}
+    .ListLink{text-align: left;}
+    .number{font-size: 27px;}
+ 
+}
+@media only screen and (max-width: 567px) {
+    .PricingTitle {font-size: 25px;
+        line-height: 44px;}
+        .PricingParg{font-size: 15px;}
+        .CardHeading{font-size: 21px;
+            line-height: 32px;}
+        .ListLink{font-size: 15px;}
+}
+  
+
+/* Responsive end  */

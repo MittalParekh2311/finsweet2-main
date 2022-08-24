@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "workImg": "/images/WorkImg1.svg",
+     "workHeading":"Template 1",
+     "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+     "workView":"View Portfolio",
+     "workType":"UI Design"
+    },
+    {
+        "id": 2,
+        "workImg": "/images/WorkImg2.svg",
+       "workHeading":"Template 2",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
+       "workType":"Figma Design"
+      },
+      {
+        "id": 3,
+        "workImg": "/images/WorkImg3.svg",
+       "workHeading":"Template 3",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
+       "workType":"Webflow Design"
+      },
+      {
+        "id": 4,
+        "workImg": "/images/WorkImg4.svg",
+       "workHeading":"Template 4",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
+       "workType":"Figma Design"
+      },
+      {
+        "id": 5,
+        "workImg": "/images/WorkImg5.svg",
+       "workHeading":"Template 5",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
+       "workType":"UI Design"
+      },
+      {
+        "id": 6,
+        "workImg": "/images/WorkImg6.svg",
+       "workHeading":"Template 6",
+       "workDescription":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+       "workView":"View Portfolio",
+       "workType":"UI Design"
+      }
+  ]
+  

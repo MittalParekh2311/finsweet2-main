@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+.ReadBlogSection {
+    padding: 100px 0;
+    width: 100%;
+}
+.BlogContent {
+    margin: 0 200px;
+    padding-top: 20px;
+}
+.ReadHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    max-width: 824px;
+}
+.ReadParg {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    margin: 30px 0;
+}
+.ListContent {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #282938;
+    opacity: 0.7;
+}
+.ListContent::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.ReadBlogImg {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+ 
+}
+@media only screen and (max-width: 992px) {
+    .ReadBlogSection {padding: 50px 0px;}
+    .BlogContent{margin: 0 100px;}
+    .ReadHeading{font-size: 30px;
+        line-height: 44px;max-width: 700px;}
+        .ReadParg {margin: 15px 0;}
+}
+@media only screen and (max-width: 768px) {
+    .ReadHeading{font-size: 25px;line-height: 35px;}                                                                                       
+}
+@media only screen and (max-width: 767px) {
+    .ReadBlogSection {padding: 30px 0px;}
+    .BlogContent{margin: 0 50px;}
+    .ReadHeading{font-size: 25px; max-width: 100%;
+        text-align: center;line-height: 35px;}
+        .ReadParg {text-align: center;}
+}
+@media only screen and (max-width: 567px) {
+    .BlogContent{margin: 0 30px;}
+    .ReadHeading{font-size: 19px;line-height: 26px;}
+    .ReadParg {font-size: 15px;}
+}
+/* Responsive end  */

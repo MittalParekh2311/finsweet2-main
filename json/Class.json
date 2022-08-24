@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+     "title":"Use Client-first",
+     "heading":"Top agencies and freelancers around the world use Client-first ",
+     "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+     "rightimg" :"/images/Class.svg"
+    },
+    {
+        "id": 2,
+        "lefttimg" :"/images/Free.svg",
+       "title":"Free Revision Rounds",
+       "heading":"Get free Revisions and one week of free maintenance",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      
+      },    
+      {
+        "id": 3,
+       "title":"24/7 Support",
+       "heading":"Working with us, you will be getting 24/7 priority support",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+       "rightimg" :"/images/Support.svg"
+      },
+      {
+        "id": 4,
+        "lefttimg" :"/images/Delivery.svg",
+       "title":"Quick Delivery",
+       "heading":"Guranteed 1 week delivery for standard five pager website",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      }
+  ]
+  

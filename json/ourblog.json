@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "blogImg": "/images/Blogimg1.svg",
+     "blogDate":"19 Jan 2022",
+      "blogHeading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+      "Description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+      "blogLink": "Read More"
+    },
+    {
+        "id": 2,
+        "blogImg": "/images/Blogimg2.svg",
+       "blogDate":"19 Jan 2022",
+        "blogHeading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "Description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "blogLink": "Read More"
+      },
+      {
+        "id": 3,
+        "blogImg": "/images/Blogimg3.svg",
+       "blogDate":"19 Jan 2022",
+        "blogHeading":"How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        "Description":"See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+        "blogLink": "Read More"
+      }
+  ]
+  

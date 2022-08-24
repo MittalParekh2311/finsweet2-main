@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "featureimg": "/images/featureicon1.svg",
+      "featureheading":"Uses Client First",
+        "featuredescription":"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "
+    },
+    {
+        "id": 2,
+        "featureimg": "/images/featureicon2.svg",
+        "featureheading":"Two Free Revision Round",
+          "featuredescription":"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "
+      },
+      {
+        "id": 3,
+        "featureimg": "/images/featureicon3.svg",
+        "featureheading":"Template Customization",
+          "featuredescription":"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "
+      },
+      {
+        "id": 4,
+        "featureimg": "/images/featureicon4.svg",
+        "featureheading":"24/7 Support",
+          "featuredescription":"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "
+      },
+      {
+        "id": 5,
+        "featureimg": "/images/featureicon5.svg",
+        "featureheading":"Quick Delivery",
+          "featuredescription":"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "
+      },
+      {
+        "id": 6,
+        "featureimg": "/images/featureicon6.svg",
+        "featureheading":"Hands-on approach",
+          "featuredescription":"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "
+      }
+  ]
+  

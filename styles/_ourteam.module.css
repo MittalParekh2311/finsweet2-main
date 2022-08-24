@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../public/font/Poppins\ Regular\ 400.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.OurTeamSection {
+    background: #F4F6FC;
+    padding: 100px 0;
+}
+.TeamHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    margin: 10px 0 !important;
+}
+.TeamContent {
+    background: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    height: 344px;
+}
+.TeamContent:hover{
+    box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+}
+
+.TeamImg {
+    width: 100%;
+    height: 168px;
+}
+.HeadingCont {
+    padding: 30px 0;
+}
+.TeamContHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #1D2130;
+    margin: 0px 0 !important;
+}
+.TeamTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D2130;
+    opacity: 0.7;
+}
+.MainCards {
+    margin-top: 35px;
+}
+.Icons {
+    margin-right: 10px;
+}
+.TeamSocial {
+    position: absolute;
+    top: 45%;
+    bottom: auto;
+    left: 43%;
+    /* background-color: black; */
+    opacity: 0;
+}
+.TeamContent:hover .TeamSocial{
+    opacity: 1;
+    /* background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%); */
+}
+
+/* Responsive start  */
+@media only screen and (max-width: 1199px) {
+    .TeamHeading {font-size: 40px;}
+ 
+}
+@media only screen and (max-width: 992px) {
+    .OurTeamSection{padding: 50px 0;}
+    .TeamContHeading {font-size: 21px;}
+    .TeamHeading {font-size: 30px;line-height: 29px;}
+}
+@media only screen and (max-width: 768px) {
+                                                                                                                            
+}
+@media only screen and (max-width: 767px) {
+    .OurTeamSection{padding: 30px 0;}
+ 
+}
+@media only screen and (max-width: 567px) {
+    .TeamContent {max-width: 295px;
+    margin: 0 auto;}
+  
+  
+}
+/* Responsive end  */
